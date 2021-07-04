@@ -1,0 +1,578 @@
+@import "bootstrap/bootstrap.less";
+@import "variables.less";
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Book"), local("Bebas-Neue-Book"),
+    url("../fonts/BebasNeueBook.woff2") format("woff2"),
+    url("../fonts/BebasNeueBook.woff") format("woff"),
+    url("../fonts/BebasNeueBook.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), local("Montserrat-Regular"),
+    url("../fonts/montserrat.woff2") format("woff2"),
+    url("../fonts/montserrat.woff") format("woff"),
+    url("../fonts/montserrat.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url(".../fonts/montserrat_medium.eot");
+  src: url("../fonts/montserrat_medium.eot?#iefix") format("embedded-opentype"),
+    url(".../fonts/montserrat_medium.woff2") format("woff2"),
+    url(".../fonts/montserrat_medium.woff") format("woff"),
+    url(".../fonts/montserrat_medium.ttf") format("truetype"),
+    url(".../fonts/montserrat_medium.svg#montserrat_medium") format("svg");
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes show_back {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+@keyframes show1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 24px;
+  }
+}
+body {
+  width: 100%;
+  height: auto;
+  background: url("../images/Layer\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  opacity: 0;
+  animation: show_back 1s;
+  animation-fill-mode: forwards;
+}
+body {
+  … .wrapper {
+    padding: 0 0 50px 0;
+  }
+
+  header {
+    padding: 70px 0;
+  }
+}
+.container,
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.backolen {
+  background-image: url("../images/Layer 6 copy.png");
+  width: 950px;
+  height: 1205px;
+  opacity: 0;
+  animation: show_back 1s;
+  animation-fill-mode: forwards;
+}
+@media (max-width: 990px) {
+  .backolen {
+    display: none;
+  }
+  .li1 {
+    margin-left: auto;
+  }
+}
+
+.navbar {
+  margin-top: 70px;
+  border: none;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: none;
+}
+.nav > li {
+  margin-left: 105px;
+}
+.nav > li > a {
+  padding: 0;
+}
+.li1 {
+  margin-left: 0 !important;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+body > div > div.row > section > nav > nav > ul > li:nth-child(5) > img {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+}
+.row {
+  margin-left: -0;
+  margin-right: -0;
+}
+element.style {
+  right: 20px;
+}
+.hot_zap {
+  font-size: 33px;
+  font-family: "Bebas Neue", Regular;
+  padding-top: 74px;
+  display: inline-block;
+  right: 44px;
+  position: inherit;
+  opacity: 0;
+  animation: show 2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+img {
+  vertical-align: bottom;
+}
+.a1 {
+  object-fit: cover;
+  position: relative;
+  right: 111px;
+  opacity: 0;
+  animation: show 2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+.premial {
+  font-size: 51px;
+  font-family: "Bebas Neue", Book;
+  margin-top: 37px;
+  height: 52px;
+  position: inherit;
+  left: 94px;
+  opacity: 0;
+  animation: show 2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+p {
+  margin: 0 0 0;
+}
+.img-fluid.esnoe {
+  padding-left: 21px;
+}
+body > div > div.row > section > div.hot_zap > p {
+  height: 25px;
+}
+.price {
+  position: inherit;
+  margin-top: 100px;
+  left: 84px;
+}
+body > div > div.row > section > div.price > img {
+  width: 24px;
+  right: 10px;
+  opacity: 0;
+  animation-name: anim;
+  animation-delay: 1.2s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.from {
+  font-size: 16px;
+  font-family: "Montserrat", Medium;
+  color: rgb(199, 175, 138);
+  padding-top: 16px;
+  opacity: 0;
+  animation: show1 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+.same_pritce {
+  font-size: 43.75px;
+  font-family: "Montserrat", Medium;
+  color: rgb(199, 175, 138);
+  opacity: 0;
+  animation: show1 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+.per_day {
+  font-size: 18px;
+  font-family: "Montserrat", Medium;
+  color: rgb(199, 175, 138);
+  padding-left: 129px;
+  opacity: 0;
+  animation: show1 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+.price_text {
+  font-size: 18px;
+  font-family: "Montserrat", Regular;
+  width: 353px;
+  opacity: 0;
+  animation: show1 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.bron {
+  margin-top: 45px;
+  background-image: url("../images/bron_frame.png");
+  background-repeat: no-repeat;
+  width: 1443px;
+  height: 150px;
+  position: inherit;
+  right: 428px;
+  z-index: 100;
+}
+.wert_frame {
+  opacity: 0;
+  animation: show 1s;
+  animation-fill-mode: forwards;
+}
+.bron_text {
+  margin-left: 46px;
+  font-size: 30px;
+  font-family: "Bebas Neue", Regular;
+  padding-top: 55px;
+}
+.button {
+  border-radius: 3px;
+  background-color: rgb(251, 212, 7);
+  font-family: "Montserrat", Regular;
+  font-size: 18px;
+  text-decoration-color: rgb(51, 51, 51);
+  box-shadow: 0px 5px 6px 0px rgba(87, 91, 124, 0.45);
+  border: unset;
+  position: relative;
+  width: 180px;
+  height: 48px;
+  left: 783px;
+  bottom: 47px;
+}
+
+.button:hover {
+  background: linear-gradient(rgb(251, 212, 7), rgb(231, 194, 9))
+    rgb(251, 212, 7);
+}
+
+.button:active {
+  background: linear-gradient(rgb(251, 212, 7), rgb(251, 212, 7))
+    rgb(251, 212, 7);
+}
+
+.date1 {
+  width: 161px;
+  height: 48px;
+  font-family: "Montserrat", Regular;
+  font-size: 18px;
+  border: unset;
+  border-radius: 3px;
+}
+
+.input_data_text_1 {
+  font-size: 12px;
+  font-family: "Montserrat", Regular;
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+}
+
+.input_data_text_2 {
+  font-size: 12px;
+  font-family: "Montserrat", Regular;
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+}
+
+::-webkit-calendar-picker-indicator {
+  color: transparent;
+  opacity: 1;
+  background: url("../images/calendar.png") no-repeat center;
+}
+
+.date2 {
+  width: 161px;
+  height: 48px;
+  font-family: "Montserrat", Regular;
+  font-size: 18px;
+  border: unset;
+  border-radius: 3px;
+}
+
+.inn_area2 {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 491px;
+  top: 51px;
+  width: 161px;
+  height: 48px;
+  z-index: 36;
+}
+
+.inn_area3 {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 675px;
+  top: 51px;
+  width: 85px;
+  height: 48px;
+  z-index: 37;
+}
+.inn_area1 {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 307px;
+  top: 51px;
+  width: 161px;
+  height: 48px;
+  z-index: 32;
+}
+.num_of_fuests {
+  text-align: left;
+  width: 85px;
+  height: 48px;
+  border: unset;
+  border-radius: 3px;
+}
+.canvass {
+  position: absolute;
+  width: 100%;
+  top: 750px;
+  height: 500px;
+}
+@media (max-width: 766px) {
+  .li1 {
+    margin-left: auto;
+  }
+  li {
+    margin-left: auto !important;
+  }
+  ul {
+    width: 100%;
+  }
+  .navbar {
+    text-align: end;
+    margin-top: 20px;
+    font-size: 12px;
+    height: 50px;
+  }
+  .hot_zap {
+    padding-top: 10px;
+    font-size: 16px;
+    margin-left: 120px;
+  }
+  .a1 {
+    right: 0;
+    margin-left: 60px;
+    width: 250px;
+  }
+  body > div > div.row > section > div.a1 > img:nth-child(1) {
+    max-width: 60px;
+  }
+  body > div > div.row > section > div.a1 > img.img-fluid.esnoe {
+    max-width: 180px;
+    padding-left: 5px;
+  }
+  .premial {
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 200px;
+  }
+  .price {
+    margin-top: 10px;
+    height: 160px;
+    width: 230px;
+  }
+  body > div > div.row > section > div.price > img {
+    position: relative;
+    right: 35px;
+    width: 15px;
+    opacity: 0;
+    animation: show 1s;
+    animation-fill-mode: forwards;
+  }
+  .from {
+    font-size: 10px;
+    position: inherit;
+    bottom: 160px;
+  }
+  .same_pritce {
+    font-size: 32px;
+    position: inherit;
+    bottom: 160px;
+  }
+  .per_day {
+    font-size: 12px;
+    width: 250px;
+    position: inherit;
+    bottom: 160px;
+    padding-left: 75px;
+  }
+  .price_text {
+    font-size: 12px;
+    width: 250px;
+    position: inherit;
+    bottom: 160px;
+  }
+  .bron {
+    right: 0 !important;
+    margin-top: 0;
+    width: 100%;
+  }
+  .bron_text {
+    margin-left: 30px;
+    font-size: 8px;
+    padding-top: 70px;
+  }
+  button {
+    margin-left: 300px;
+    bottom: 21px;
+    left: 0 !important;
+    width: 40px !important;
+    height: 25px !important;
+    bottom: 25px !important;
+    font-size: 8px !important;
+  }
+  .inn_area1 {
+    left: 100px;
+    top: 64px;
+    width: 81px;
+    height: 18px;
+  }
+  .date1 {
+    width: 81px;
+    height: 18px;
+    font-size: 8px;
+    background-color: white;
+  }
+  .inn_area2 {
+    left: 190px;
+    top: 64px;
+    width: 81px;
+    height: 18px;
+  }
+  .date2 {
+    width: 81px;
+    height: 18px;
+    font-size: 8px;
+    background-color: white;
+  }
+  .input_data_text_1 {
+    font-size: 6px;
+    font-family: Montserrat, Regular;
+    position: absolute;
+    bottom: 11px;
+    left: 7px;
+  }
+  .input_data_text_2 {
+    font-size: 6px;
+    font-family: Montserrat, Regular;
+    position: absolute;
+    bottom: 11px;
+    left: 7px;
+  }
+  .inn_area3 {
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
+    left: 277px;
+    top: 69px;
+    width: 17px;
+    height: 10px;
+  }
+  .num_of_fuests {
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
+
+    width: 17px;
+    height: 10px;
+  }
+  .canvass {
+    top: 500px;
+    height: 200px;
+  }
+  .frame_numb {
+    display: none;
+  }
+}
